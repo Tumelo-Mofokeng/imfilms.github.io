@@ -238,28 +238,28 @@
 					<h4>Website: <a href="http://www.imfilms.co.za">imfilms</a></h4>
 				</div>
 				<div class="col-lg-7 col-md-7">
-					<h4>Send us your email and we will get back to you</h4>
-					<div class="input-group input-group-lg">
-						<span class="input-group-addon" id="sizing-addon1">
-							<i class="fas fa-user"></i>
-						</span>
-						<input type="text" class="form-control" aria-describeby="sizing-addon1" placeholder="Enter your name" >
-					</div>
+					<form action="/action_page.php"><!--begin form-->
+						
+					  <h2>Send us an email</h2>
 
+					  <div class="input-container">
+					    <i class="fa fa-user icon"></i>
+					    <input class="input-field" type="text" placeholder="Enter your name" name="usrnm">
+					  </div>
 
-					<div class="input-group input-group-lg">
-						<span class="input-group-addon" id="sizing-addon1">
-							<i class="fas fa-envelope"></i>
-						</span>
-						<input type="text" class="form-control" aria-describeby="sizing-addon1" placeholder="Enter your email" >
-					</div>
+					  <div class="input-container">
+					    <i class="fa fa-envelope icon"></i>
+					    <input class="input-field" type="text" placeholder="Enter your email" name="email">
+					  </div>
 
-					<div class="form-group">
-						<textarea name="'textarea" cols="80" rows="6" class="form-control" placeholder="Enter your message"></textarea>
+					  <div class="input-container">
+						<textarea name="'textarea" cols="80" rows="6" class="input-field" placeholder="Enter your message"></textarea>
 						<!-- type="text" class="=form-control" id="message" placeholder="Enter your message">-->
-					</div> 
-					<br><br>
-					<button type="submit" class="btn btn-lg">Submit</button>
+					  </div> 
+					  <br>
+					  <button type="submit" class="btn btn-lg">Submit</button>
+
+					</form><!--end of form-->
 				</div><!--end of column-->
 			</div><!--end of row-->
 		</div>
