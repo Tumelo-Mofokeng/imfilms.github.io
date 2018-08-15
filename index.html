@@ -15,6 +15,26 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
+	<!--begin script-->
+	<script>
+	// Get the video
+	var video = document.getElementById("myVideo");
+
+	// Get the button
+	var btn = document.getElementById("myBtn");
+
+	// Pause and play the video, and change the button text
+	function myFunction() {
+	    if (video.paused) {
+	        video.play();
+	        btn.innerHTML = "Pause";
+	    } else {
+	        video.pause();
+	        btn.innerHTML = "Play";
+	    }
+	}
+	</script>
+	<!--end script-->
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -52,64 +72,27 @@
 		<br>
 		<h3>Breaking Boundaries</h3>
 	</div>
-
-	<div class="container well">
+	
+	<div class="container-fluid well">
 			<div class="row">
+				<!-- Optional: some overlay text to describe the video -->
+				<div class="content">
+					<video autoplay muted loop id="myVideo">
+				  		<source src="The Darkest Minds - Official Trailer [HD] - 20th Century FOX.mp4" type="video/mp4">
+					</video>
+				  <!-- Use a button to pause/play the video with JavaScript -->
+				  <button class = "btn btn-warning"id="myBtn" onclick="myFunction()">Pause</button>
+				</div>
+
 				<div class="col-lg-4">
-					<img src="IMG-20180803-WA0004.jpg">
-					<img src="IMG-20180803-WA0005.jpg">
 					<img src="IMG-20180803-WA0004.jpg">
 				</div>
 				<div class="col-lg-4">
-					<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
-					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
-					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
-					<li data-target="#screenshot-carousel" data-slide-to="4"></li>
-				</ol>
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="godzilla-poster.jpg">
-							<div class="carousel-caption">
-								<p>Scroll for more...</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="Imaikkaa-Nodigal-Movie-New-Year-Wishes-Poster-1.jpg">
-								<div class="carousel-caption">
-									<p>Scroll for more...</p>
-								</div>
-						</div>
-						<div class="item">
-							<img src="popular-movie-poster-designs-4.jpg">
-							<div class="carousel-caption">
-								<p>Scroll for more...</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="MPW-50903.jpg">
-								<div class="carousel-caption">
-									<p>Scroll for more...</p>
-								</div>
-						</div>
-					</div><!--end of carousel inner-->
-					<!--left carousel slider-->
-				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<!--right carousel slider-->
-				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-				</div><!--end of carousel-->
-			</div>
-			<div class="col-lg-4">
-				<img src="IMG-20180803-WA0004.jpg">
-				<img src="IMG-20180803-WA0005.jpg">
-				<img src="IMG-20180803-WA0004.jpg">
-			</div>
+					<img src="IMG-20180803-WA0004.jpg">
+				</div>
+				<div class="col-lg-4">
+					<img src="IMG-20180803-WA0004.jpg">
+				</div>
 			</div>
 	</div>
 	<div class="container">

@@ -84,7 +84,7 @@ p{
 /*navigation styling*/
 .navbar-brand {
     float: left;
-    height: 80px;
+    height: 60px;
     padding: 0px;
     margin: 0px;
     font-size: 20px;
@@ -265,10 +265,10 @@ b{
 	margin-top: 30px;
 }
 
-.container section .services img
+.container-fluid .row .col-lg-4 img
 {
-	min-width: 100%;
-	height: 500px;
+	min-width: 90%;
+	height: auto;
 }
 .services p
 {
@@ -685,3 +685,38 @@ b{
   opacity: 1;
 }
 
+/*begin styling video-->
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo 
+{
+    margin: 0;
+    min-width: 100%; 
+    height: auto;
+}
+
+/* Add some content at the bottom of the video/page */
+.content 
+{
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    margin: 0; 
+    padding: 0px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    float: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
