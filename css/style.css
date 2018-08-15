@@ -270,6 +270,16 @@ b{
 	min-width: 90%;
 	height: auto;
 }
+.container-fluid .services .row .col-lg-4 img
+{
+	min-width: 70%;
+	height: 400px;
+	float: center;
+}
+.container-fluid .services .row .col-lg-4 h2, h3, p, b
+{
+	float: center;
+}
 .services p
 {
 	margin-top: 5px;
