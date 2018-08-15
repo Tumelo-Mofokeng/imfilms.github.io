@@ -56,9 +56,11 @@ p{
 }
 
 /*Default styles end here*/
-.jumbotron {
-    padding-top: 38px;
-    padding-bottom: 3px;
+.jumbotron 
+{
+   padding-top: 18px;
+    padding-bottom: 9px;
+    margin: 2px;s
 }
 .jumbotron h2 {
     margin-top: 55px;
@@ -82,12 +84,12 @@ p{
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 /*navigation styling*/
-.navbar-brand {
-    float: left;
-    height: 60px;
-    padding: 0px;
+.navbar-brand
+{
+    float: center;
+    height: 65px;
+    padding: 0px 15px 0 12px;
     margin: 0px;
-    font-size: 20px;
 }
 
 .navbar {
@@ -268,10 +270,15 @@ b{
 	text-align: center;
 }
 
-.container-fluid .row .col-lg-4 img
+.container-fluid {
+    padding: 0px;
+    margin: 0;
+}
+
+.container .row .col-lg-6 img
 {
-	min-width: 90%;
-	height: auto;
+	min-width: 100%;
+	height: 100px;
 	float: center;
 }
 .container-fluid .services .row .col-lg-4 img
@@ -301,8 +308,11 @@ b{
 	color:  white;
 }
 
-.services{
+.services
+{
 	margin: 0px;
+	width: 100%;
+    border-radius: 15px;
 	background-color: #e4a49f;
 }
 
@@ -508,13 +518,15 @@ b{
 .team {
 	padding: 0;
 	text-align: center;
-	align-self: center;
 }
 
-.team b, .team h2, .team h4{
+.team b, .team h2, .team h4
+{
 	color: #333;
-	background-color: #337ab7;
-	background-color: #f0d8d8;
+    border-radius: 15px;
+    padding: 0;
+    margin: 3px;
+    background-color: #f0d8d8;
 }
 
 .team b{
