@@ -58,7 +58,7 @@ p{
 /*Default styles end here*/
 .jumbotron 
 {
-   padding-top: 18px;
+   padding-top: 58px;
     padding-bottom: 9px;
     margin: 2px;s
 }
@@ -84,10 +84,11 @@ p{
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 /*navigation styling*/
-.navbar-brand
+.navbar-brand img
 {
     float: center;
     height: 65px;
+    width: 10%;
     padding: 0px 15px 0 12px;
     margin: 0px;
 }
@@ -270,11 +271,6 @@ b{
 	text-align: center;
 }
 
-.container-fluid {
-    padding: 0px;
-    margin: 0;
-}
-
 .container .row .col-lg-6 img
 {
 	min-width: 100%;
@@ -289,6 +285,14 @@ b{
 	border-radius: 15px;
 	margin:0; 
 	float: center;
+}
+.container-fluid img {
+    width: 20%;
+    height: unset;
+}
+.container .col-lg-4
+{
+	min-width: 100%;
 }
 .services p
 {
@@ -319,7 +323,7 @@ b{
 @media(max-width: 768px)
 {
 	.services{
-		padding: 0px;
+		padding: 15px;
 		margin: 0px;
 	}
 }
