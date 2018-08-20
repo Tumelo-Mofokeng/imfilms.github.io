@@ -675,16 +675,34 @@ b{
   width: 100%;
   margin-bottom: 15px;
 }
-
-/* Style the form icons */
-.icon {
-  padding: 10px;
-  background: dodgerblue;
-  color: white;
-  min-width: 50px;
-  text-align: center;
+.contacts .btn {
+    margin-top: -45px;
+    border-radius: 10px;
+    width: 70%;
+    float: left;
+    font-size: 15px;
+    background-color: #d6b1b1;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
 }
 
+textarea.form-control {
+    height: auto;
+    width: 100%;
+}
+/* Style the form icons */
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
 /* Style the input fields */
 .input-field {
   width: 100%;
